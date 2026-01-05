@@ -329,5 +329,48 @@ Sum the results and compare with the original number.*/
 //         Mentqi olaraq ilk defe bele yazmiashdim
 //         amma anladigim qederi ile eded 3 reqemli olmaya biler
 
+
+
+/*
+Task 6:
+Write a program that prints Fibonacci numbers.
+
+Ask the user how many Fibonacci numbers to print.
+If the entered number is zero or negative, print "Please enter a valid number".
+Use loops to print the Fibonacci sequence.
+Use a to show whether each Fibonacci number is even or odd.*/
+
+ /*       Scanner scanner6 = new Scanner(System.in);
+        System.out.print("How many Fibonacci numbers to print: ");
+        int n = scanner6.nextInt();
+
+        if (n <= 0) {
+            System.out.println("Please enter a valid number");
+            return;
+        }
+        int first = 0;
+        int second = 1;
+        for (int i = 1; i <= n; i++) {
+
+            int fibonacci;
+
+            if (i == 1) {
+                fibonacci = first;
+            } else if (i == 2) {
+                fibonacci = second;
+            } else {
+                fibonacci = first + second;
+                first = second;
+                second = fibonacci;
+            }
+
+            if (fibonacci % 2 == 0) {
+                System.out.println(fibonacci + " is even");
+            } else {
+                System.out.println(fibonacci + " is odd");
+            }
+        }
+
+        */
     }
 }
